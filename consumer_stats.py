@@ -36,7 +36,6 @@ for message in consumer:
         print("-" * 65)
         
         for cat, data in stats.items():
-            # Wypisanie sformatowanego wiersza
             print(f"{cat:<14} | {data['count']:<8} | {data['total']:<12.2f} | {data['min']:<8.2f} | {data['max']:<8.2f}")
             
         print("=" * 65)
